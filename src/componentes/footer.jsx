@@ -1,3 +1,9 @@
+import linkedinIcon from '../imagenes/linkedin-ico.png';
+import githubIcon from '../imagenes/github-ico.png';
+import twitterIcon from '../imagenes/twitter-ico.png';
+import blogIcon from '../imagenes/blog-ico.png';
+import youtubeIcon from '../imagenes/yt-ico.png';
+
 export function Footer() {
   return (
     <div className="bg-black p-4 container-fluid mx-auto">
@@ -8,19 +14,19 @@ export function Footer() {
           </h1>
           <div className="flex mt-3 lg:mt-0">
             <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/rammcodes">
-              <img className="w-6 h-6 lg:w-8 lg:h-8 mr-2" src="src/imagenes/linkedin-ico.png" alt="" />
+              <img className="w-6 h-6 lg:w-8 lg:h-8 mr-2" src={linkedinIcon} alt="LinkedIn" />
             </a>
             <a target="_blank" rel="noreferrer" href="https://github.com/rammcodes">
-              <img className="w-6 h-6 lg:w-8 lg:h-8 mr-2" src="src/imagenes/github-ico.png" alt="" />
+              <img className="w-6 h-6 lg:w-8 lg:h-8 mr-2" src={githubIcon} alt="GitHub" />
             </a>
             <a target="_blank" rel="noreferrer" href="https://twitter.com/rammcodes">
-              <img className="w-6 h-6 lg:w-8 lg:h-8 mr-2" src="src/imagenes/twitter-ico.png" alt="" />
+              <img className="w-6 h-6 lg:w-8 lg:h-8 mr-2" src={twitterIcon} alt="Twitter" />
             </a>
             <a target="_blank" rel="noreferrer" href="https://dev.to/rammcodes">
-              <img className="w-6 h-6 lg:w-8 lg:h-8 mr-2" src="src/imagenes/blog-ico.png" alt="" />
+              <img className="w-6 h-6 lg:w-8 lg:h-8 mr-2" src={blogIcon} alt="Blog" />
             </a>
             <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCIb8_J9lqtiWGMIOdQ5DVsg">
-              <img className="w-6 h-6 lg:w-8 lg:h-8" src="src/imagenes/yt-ico.png" alt="" />
+              <img className="w-6 h-6 lg:w-8 lg:h-8" src={youtubeIcon} alt="YouTube" />
             </a>
           </div>
         </div>
